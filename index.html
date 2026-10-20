@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>두뇌 놀이터 — 어린이 두뇌 게임</title>
+<meta name="description" content="아이가 혼자서도 할 수 있는 두뇌 게임 모음. 틀린 그림 찾기, 색깔 잇기, 멍도쿠, 칠교놀이 등 17가지.">
+<style>
+  :root {
+    --cream: #FFF7EC;
+    --ink: #3B3024;
+    --ink-soft: #8A7A69;
+    --orange: #FF7A45;
+    --grass: #3DD68C;
+    --card: #ffffff;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 0 16px;
+    background: var(--cream);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo",
+                 "Noto Sans KR", "Malgun Gothic", sans-serif;
+    line-height: 1.65;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 56px 0 72px; }
+  header { text-align: center; margin-bottom: 44px; }
+  h1 { font-size: 2.2rem; margin: 0 0 8px; font-weight: 800; }
+  .sub { color: var(--ink-soft); font-size: 1.05rem; margin: 0; }
+  .cta {
+    display: inline-block; margin-top: 26px; padding: 14px 28px;
+    background: var(--grass); color: #fff; text-decoration: none;
+    border-radius: 999px; font-weight: 700;
+  }
+  h2 { font-size: 1.3rem; margin: 40px 0 14px; }
+  .games { display: grid; gap: 10px; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); padding: 0; list-style: none; margin: 0; }
+  .games li { background: var(--card); border-radius: 16px; padding: 14px 16px; }
+  .games b { display: block; }
+  .games span { color: var(--ink-soft); font-size: .9rem; }
+  .note { background: var(--card); border-radius: 16px; padding: 18px 20px; }
+  footer { margin-top: 48px; padding-top: 22px; border-top: 1px solid #e6dccd; color: var(--ink-soft); font-size: .92rem; }
+  footer a { color: var(--orange); }
+  @media (prefers-color-scheme: dark) {
+    :root { --cream: #221c16; --ink: #f3ece2; --ink-soft: #b3a492; --card: #2e261e; }
+    footer { border-top-color: #3d342a; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>두뇌 놀이터</h1>
+    <p class="sub">아이가 혼자서도 할 수 있는 두뇌 게임 모음</p>
+    <a class="cta" href="https://play.google.com/store/apps/details?id=com.irisplay.playground">Google Play에서 받기</a>
+  </header>
+
+  <h2>어떤 놀이가 있나요</h2>
+  <ul class="games">
+    <li><b>틀린 그림 찾기</b><span>그림 두 장의 다른 곳 찾기</span></li>
+    <li><b>색깔 잇기</b><span>같은 색끼리, 선은 겹치지 않게</span></li>
+    <li><b>멍도쿠</b><span>줄마다 색깔마다 한 마리씩</span></li>
+    <li><b>똥 피하기</b><span>떨어지는 것을 요리조리</span></li>
+    <li><b>칠교놀이</b><span>조각 고르기·세기·맞추기</span></li>
+    <li><b>숫자 합치기</b><span>같은 숫자끼리 톡</span></li>
+    <li><b>같은 그림 찾기</b><span>뒤집어서 짝 맞추기</span></li>
+    <li><b>그림 맞추기</b><span>조각난 그림 맞추기</span></li>
+  </ul>
+  <p class="sub" style="margin-top:12px">이 밖에도 한붓그리기, 블록 퍼즐, 구슬 튕기기 등이 들어 있습니다.</p>
+
+  <h2>만든 사람의 약속</h2>
+  <div class="note">
+    <p>아이가 쓰는 앱이라 이렇게 만들었습니다.</p>
+    <ul>
+      <li>이름·전화번호·이메일을 묻지 않습니다. 회원가입이 없습니다.</li>
+      <li>순위표에 쓰는 이름은 준비된 낱말을 고르고 숫자 네 자리만 직접 넣습니다. 아이가 글자를 적어 넣을 수 없습니다.</li>
+      <li>광고는 전체 이용가 소재만 나오고, 맞춤 광고를 끄도록 설정했습니다.</li>
+      <li>비행기 모드에서도 놀 수 있습니다.</li>
+    </ul>
+  </div>
+
+  <footer>
+    <p><a href="https://iris0348.github.io/brain-game/">개인정보처리방침</a></p>
+    <p>문의: <a href="mailto:iris0348@gmail.com">iris0348@gmail.com</a></p>
+    <p>JK Creative Studio Labs</p>
+  </footer>
+
+</div>
+</body>
+</html>
